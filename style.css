@@ -43,20 +43,34 @@ text-decoration: capitalize;
 }
 /* section 1 */
 .hero{
-padding: 0;
+    padding-top: 99px;
+    padding-bottom: 99px;
 }
-.hero-title{
-    background-color: #779611;
-    margin: 190px;
-    width: 48px;
-}
-.hero-text{
-width: 24px;
-margin: 52px;
-background-color: black;
+.hero-container {
+    display: flex;
+    gap: 107px;
 }
 
-.hero-container{
-display: flex;
-gap: 660px;
+
+.hero-title {
+    color: #779611;
+    line-height: 130%;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.hero-text {
+    font-size: 14px;
+    line-height: 158%;
+    color: #101010;
+    padding-bottom: 35px;
+}
+.mickey-link {
+    background-color: #F9F9F9;
+    color: #707070;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
