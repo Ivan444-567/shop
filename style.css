@@ -66,7 +66,7 @@ text-decoration: capitalize;
     color: #101010;
     padding-bottom: 35px;
 }
-.hero-link {
+.hero-link { 
     background-color: #779611;
     color: #F9F9F9;
     font-size: 16px;
@@ -219,4 +219,3 @@ footer {
     font-size: 14px;
     color: #333;
 }
-         
