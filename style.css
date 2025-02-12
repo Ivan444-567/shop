@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f9f9f9;
+}
+h1, h2, h3, p, ul{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+} 
+.container{
+margin: 0px auto;
+width: 1720px;
+}
+/*header*/
+.header{
+padding: 41px 0px;
+border-bottom: 23x solid #779611;
+display: flex;
+}
+
+.header-container{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.header-menu{
+display:flex; 
+gap:80px;
+}
+.header-link{
+color:#707070;
+font-size: 20px;
+font-weight: 500;
+text-decoration: capitalize;
+}
+/* section 1 */
+.hero{
+    padding-top: 99px;
+    padding-bottom: 99px;
+    border-top: 2px solid #779611;
+}
+.hero-container {
+    display: flex;
+    gap: 107px;
+}
+
+
+.hero-title {
+    color: #779611;
+    line-height: 130%;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+.hero-text {
+    font-size: 14px;
+    line-height: 158%;
+    color: #101010;
+    padding-bottom: 35px;
+}
+.hero-link {
+    background-color: #779611;
+    color: #F9F9F9;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.hero-img{
+    float:right
+}
+/* 2 */
+.flaves{
+    padding-top: 80px;
+    border-top: 2px solid #779611;
+}
+.flaves-title{
+    font-family: "Exo 2, sanc-serif";
+    font-weight: 600;
+    font-size: 36px;
+    color: #779611;
+    line-height: 43px,2px;
+    padding-bottom: 35px;
+}
+.flaves-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 24,38px;
+    padding-bottom:50PX ;
+}
+.flaves-list{
+    display: flex;
+    gap: 20px;
+}
+.flaves-name{
+    font-family: "Montserrat", sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    color: #779611;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.flaves-price{
+    font-family:"Montserrat", sans-serif ;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+/*Subscription*/
+.flaves{
+    padding-top: 80px;
+    border-top: 2px solid #779611;
+}
+.Subscription-title{
+    font-family: "Exo 2, sanc-serif";
+    font-weight: 600;
+    font-size: 36px;
+    color: #779611;
+    line-height: 43px,2px;
+    padding-bottom: 35px;
+}
+.Subscription-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 24,38px;
+    padding-bottom:50PX ;
+}
+.Subscription-list{
+    display: flex;
+    gap: 20px;
+}
+.Subscription-name{
+    font-family: "Montserrat", sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    color: #779611;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.Subscription-price{
+    font-family:"Montserrat", sans-serif ;
+    font-size: 20px;
+    line-height: 24.38px;
+}
+/* abaut-Us */
+.abaut-Us{
+    padding-top: 60px;
+    padding-bottom:60px ;
+border-bottom: 2px solid #779611;
+border-top: 2px solid #779611;
+}
+.abaut-Us-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.abaut-Us-adress{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.abaut-Us-title{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.abaut-Us-adress{
+    line-height: 1.8;
+    font-family:"Montserrat", sans-serif ;
+}
+.abaut-Us-title{
+    padding-bottom: 15px;
+    color: #779611;
+}
+.abaut-Us-img{
+    float:right  
+}
+/* footer */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 2px solid #a0a75a;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-section a:hover {
+    color: #a0a75a;
+}
+
+.footer-contact p,
+.footer-contact a {
+    font-size: 14px;
+    color: #333;
+}
+         
