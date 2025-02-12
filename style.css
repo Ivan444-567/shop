@@ -25,12 +25,12 @@ border-bottom: 23x solid #779611;
 display: flex;
 }
 
-.header-container{
+.header-container {
 display: flex;
 align-items: center;
 gap: 20px;
 }
-.header-menu{
+.header-meny{
 display:flex; 
 gap:80px;
 }
@@ -182,6 +182,9 @@ border-top: 2px solid #779611;
 .abaut-Us-img{
     float:right  
 }
+.abaut-Us-textone{
+    background-color: #779611;
+}
 /* footer */
 footer {
     background-color: #f8f8f8;
@@ -190,6 +193,11 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     border-top: 2px solid #a0a75a;
+    display: flex;
+     justify-content: space-between; 
+     max-width: 1200px;
+      margin: auto;
+       flex-wrap: wrap;
 }
 
 .footer-section {
