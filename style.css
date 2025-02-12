@@ -70,6 +70,7 @@ text-decoration: capitalize;
     background-color: #779611;
     color: #F9F9F9;
     font-size: 16px;
+    font-size: 16px;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 8px;
@@ -198,6 +199,7 @@ footer {
      max-width: 1200px;
       margin: auto;
        flex-wrap: wrap;
+     
 }
 
 .footer-section {
@@ -212,7 +214,7 @@ footer {
     color: #333;
 }
 
-.footer-section a {
+.footer-menu {
     text-decoration: none;
     color: #333;
     font-size: 14px;
@@ -222,8 +224,7 @@ footer {
     color: #a0a75a;
 }
 
-.footer-contact p,
-.footer-contact a {
+.footer-menu{
     font-size: 14px;
     color: #333;
 }
